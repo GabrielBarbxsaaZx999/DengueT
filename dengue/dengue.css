@@ -1,0 +1,118 @@
+.logo img {
+    padding: 20px;
+    max-width: 250px;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+    height: 50px;
+    width: 100px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(45deg, #4b0000, #000);
+    color: #ffffff;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .header h1 {
+    margin-bottom: 0;
+  }
+  
+  .header p {
+    margin-top: 5px;
+  }
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+}
+
+.chart-container {
+    width: 100%;
+    text-align: center;
+}
+
+.chart {
+    width: 100%;
+    max-width: 775px;
+    margin: px auto;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.legend {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.legend span {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.legend .confirmed { color: #a9a9a9; }
+.legend .suspected { color: #e74c3c; }
+.legend .recovered { color: #2ecc71; }
+
+.footer {
+background: linear-gradient(45deg, #4b0000, #000);
+color: #ffffff;
+padding-top: 40px;
+padding-bottom: 20px;
+}
+
+.footer h5 {
+color: #ffffff;
+}
+
+.footer ul {
+list-style: none;
+padding-left: 0;
+}
+
+.footer ul li {
+padding: 5px 0;
+}
+
+.footer ul li a {
+color: #ffffff;
+text-decoration: none;
+}
+.copy {
+background: linear-gradient(45deg, #4b0000, #000);
+}
+
+.copy p {
+margin-bottom: 0;
+}
+
+button{
+    background: linear-gradient(45deg, #4b0000, #000);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
